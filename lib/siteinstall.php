@@ -42,9 +42,9 @@ $configModel = new JInstallationModelConfiguration(array("dbo"=>$dbo));
 
 $options = array(
 	"site_offline" => false,
-	"site_name" => "test",
-	"site_metadesc" => "wutuututut",
-	"site_metakeys" => "wubwubwub",
+	"site_name" => "Joomla Site",
+	"site_metadesc" => "",
+	"site_metakeys" => "",
 	"db_type" => "mysql",
 	"db_host" => "localhost",
 	"db_user" => "root",
@@ -59,9 +59,9 @@ $options = array(
 	"ftp_root" => "/",
 	"ftp_enable" => false,
 	"ftpEnable" => false,
-	"admin_password" => "demo",
+	"admin_password" => "admin",
 	"admin_user" => "admin",
-	"admin_email" => "wut@wut.com"
+	"admin_email" => "admin@admin.com"
 );
 
 $app = JFactory::getApplication('installation');

@@ -28,9 +28,9 @@ $helper = new JInstallationHelper();
 
 $options = array(
 	"offline" => false,
-	"siteName" => "test",
-	"metadesc" => "wutuututut",
-	"metakeys" => "wubwubwub",
+	"siteName" => "Joomla Site",
+	"metadesc" => "",
+	"metakeys" => "",
 	"DBtype" => "mysql",
 	"DBhostname" => "localhost",
 	"DBuserName" => "root",
@@ -45,9 +45,9 @@ $options = array(
 	"ftp_root" => "/",
 	"ftp_enable" => false,
 	"ftpEnable" => false,
-	"adminPassword" => "demo",
+	"adminPassword" => "admin",
 	"adminLogin" => "admin",
-	"admin_email" => "wut@wut.com"
+	"admin_email" => "admin@admin.com"
 );
 
 //$app = JFactory::getApplication('installation');
